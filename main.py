@@ -3,12 +3,8 @@ from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 """
-200R$ eh extremamente caro pra um projeto desses
-tirando isso, nao acho que a intencao fosse somente de "ajudar", se fosse, voces nao estariam lucrando com o projeto ( alem de monopolizar na mao dos poucos que podem pagar, enfimmm :^) )
-o '''exploit''' (bota aspas nisso) no modelo atual so afeta filas ranqueadas, se quiser mudar isso, altere o $lobbycreatedata pro json respectivo a fila que voce quer (dps eu mexo nisso e torno  global)
-pelo que notei, quanto mais forte o hardware, mais fodido sera pra quem for travado. isso porque sera uma taxa maior de invites/kicks ocorrendo, assim incidindo numa maior chance das duas filas acontecerem ao mesmo tempo e a vulnerabilidade triggar
-alem disso, quanto mais pessoas rodando sobre o mesmo alvo = mais eficiente sera etc etc
-TEORICAMENTE, esse script eh SUPER mal otimizado (escrito em linguagem de 3 nivel, sem falar do exe compilado). apesar de cumprir a funcionalidade, a ideia dele eh servir como proof of concept, apenas
+~ not working anymore, I'll only keep it here for research purposes
+xpl file related to the first PoC available for a bug present in League of Legends, discovered by me, which could lead to remote game crashing
 """
 
 def getsummonerid(summonnername):
